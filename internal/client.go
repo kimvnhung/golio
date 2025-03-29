@@ -188,6 +188,7 @@ func (c *Client) NewRequest(method, endpoint string, body io.Reader, reqOptions 
 	for _, opt := range reqOptions {
 		opt(request)
 	}
+	log.Printf("request: %v", request)
 	return request, nil
 }
 
