@@ -4,12 +4,12 @@ import (
 	"net/http"
 	"testing"
 
+	"github.com/kimvnhung/golio/internal"
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/KnutZuidema/golio/api"
-	"github.com/KnutZuidema/golio/internal"
-	"github.com/KnutZuidema/golio/internal/mock"
+	"github.com/kimvnhung/golio/api"
+	"github.com/kimvnhung/golio/internal/mock"
 )
 
 func TestSummonerClient_GetByAccountID(t *testing.T) {

@@ -1,7 +1,7 @@
 package tft
 
 import (
-	"github.com/KnutZuidema/golio/internal"
+	"github.com/kimvnhung/golio/internal"
 	log "github.com/sirupsen/logrus"
 )
 

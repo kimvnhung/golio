@@ -1,6 +1,6 @@
 package val
 
-import "github.com/KnutZuidema/golio/api"
+import "github.com/kimvnhung/golio/api"
 
 const (
 	endpointBase                  = "/val"

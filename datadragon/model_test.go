@@ -3,12 +3,12 @@ package datadragon
 import (
 	"testing"
 
+	"github.com/kimvnhung/golio/internal"
 	log "github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/KnutZuidema/golio/api"
-	"github.com/KnutZuidema/golio/internal"
-	"github.com/KnutZuidema/golio/internal/mock"
+	"github.com/kimvnhung/golio/api"
+	"github.com/kimvnhung/golio/internal/mock"
 )
 
 func TestChampionData_GetExtended(t *testing.T) {

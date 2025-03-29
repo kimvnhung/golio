@@ -5,7 +5,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/KnutZuidema/golio/internal"
+	"github.com/kimvnhung/golio/internal"
 )
 
 // ContentClient provides methods for the content endpoints of the VALORANT API.

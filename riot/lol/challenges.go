@@ -5,7 +5,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/KnutZuidema/golio/internal"
+	"github.com/kimvnhung/golio/internal"
 )
 
 // ChallengesClient provides methods for the challenges endpoints of the League of Legends API.

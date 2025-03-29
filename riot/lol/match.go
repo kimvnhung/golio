@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/kimvnhung/golio/internal"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/KnutZuidema/golio/api"
-	"github.com/KnutZuidema/golio/internal"
+	"github.com/kimvnhung/golio/api"
 )
 
 // MatchClient provides methods for the match endpoints of the League of Legends API.

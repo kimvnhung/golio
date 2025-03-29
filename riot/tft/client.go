@@ -1,7 +1,7 @@
 // Package tft allows you to interact with the Teamfight Tactics API
 package tft
 
-import "github.com/KnutZuidema/golio/internal"
+import "github.com/kimvnhung/golio/internal"
 
 // Client pools all methods for endpoints of the League of Legends TFT API.
 type Client struct {
